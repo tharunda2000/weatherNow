@@ -4,7 +4,7 @@ function search(){
 let cityName = document.getElementById("floatingInput").value;
 console.log(cityName);
 
-fetch(`http://api.weatherapi.com/v1/current.json?key=7bbf3c05fb7345d2ade192116252501&q=${cityName}`)
+fetch(`https://api.weatherapi.com/v1/current.json?key=7bbf3c05fb7345d2ade192116252501&q=${cityName}`)
 .then(res=>res.json())
 .then(data=>{
     console.log(data);
