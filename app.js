@@ -12,7 +12,7 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=7bbf3c05fb7345d2ade1921162
     document.getElementById("card").innerHTML=`<div class="h-100 p-5 text-bg-dark rounded-3"" style="max-width: 740px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="${data.current.condition.icon}" class="img-fluid rounded-start w-70 mr-5" alt="...">
+      <img src="${data.current.condition.icon}" class="img-fluid rounded-start w-80 mr-5" alt="...">
     </div>
     <div class="col-md-8  ">
       <div class="card-body">
